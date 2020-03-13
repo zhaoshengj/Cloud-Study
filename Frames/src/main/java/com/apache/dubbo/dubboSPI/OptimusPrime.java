@@ -1,9 +1,9 @@
-package com.apache.dubbo.jdkSPI;
+package com.apache.dubbo.dubboSPI;
 
-public class OptimusPrime implements Robot {
+public class OptimusPrime implements DubboRobot {
 
     @Override
     public void sayHello() {
-        System.out.println("Hello, I am Optimus Prime.");
+        System.out.println("Hello, I am dubbo Optimus Prime.");
     }
 }

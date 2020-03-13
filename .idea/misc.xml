@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/Cloud-Alibaba/Nacos/pom.xml" />
         <option value="$PROJECT_DIR$/Cloud-Alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/Cloud-Alibaba/Dubbo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -17,5 +18,12 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Frames" />
+      </set>
+    </option>
   </component>
 </project>

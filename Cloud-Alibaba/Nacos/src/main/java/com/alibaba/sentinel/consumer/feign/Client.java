@@ -1,4 +1,4 @@
-package com.alibaba.nacos.consumer.feign;
+package com.alibaba.sentinel.consumer.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

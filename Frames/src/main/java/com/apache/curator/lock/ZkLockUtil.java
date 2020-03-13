@@ -1,6 +1,6 @@
-package com.zookeeper.curator.lock;
+package com.apache.curator.lock;
 
-import com.zookeeper.curator.client.ZkServer;
+import com.apache.curator.client.ZkServer;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.cache.PathChildrenCache;
 import org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent;

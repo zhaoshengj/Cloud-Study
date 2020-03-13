@@ -1,4 +1,4 @@
-package com.alibaba.nacos.provider.controller;
+package com.alibaba.sentinel.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

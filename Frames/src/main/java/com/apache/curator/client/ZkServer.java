@@ -1,10 +1,9 @@
-package com.zookeeper.curator.client;
+package com.apache.curator.client;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
-import org.apache.curator.retry.RetryNTimes;
 
 /**
  * 1.Curator框架的介绍
@@ -33,6 +32,8 @@ import org.apache.curator.retry.RetryNTimes;
  * 7)判断节点是否存在方法 checkExists
  *
  * http://curator.apache.org/zk-compatibility.html
+ *
+ *
  */
 public class ZkServer {
 

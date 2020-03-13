@@ -16,12 +16,21 @@
 
     <modules>
         <module>Nacos</module>
+        <module>Sentinel</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
-        <alibaba.version>2.1.0.RELEASE</alibaba.version>
+        <alibaba.version>2.2.0.RELEASE</alibaba.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>

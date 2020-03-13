@@ -1,4 +1,4 @@
-package com.alibaba.dubbo.provider;
+package com.alibaba.dubbo;
 
 public interface HelloService {
 

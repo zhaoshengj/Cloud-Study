@@ -1,12 +1,10 @@
-package com.alibaba.nacos.consumer.controller;
+package com.alibaba.sentinel.consumer.controller;
 
-import com.alibaba.nacos.consumer.feign.Client;
+import com.alibaba.sentinel.consumer.feign.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

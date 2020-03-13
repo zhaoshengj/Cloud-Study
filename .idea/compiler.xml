@@ -7,15 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Cloud-Alibaba" />
-        <module name="Cloud-Study" />
+        <module name="Dubbo" />
+        <module name="Frames" />
         <module name="Nacos" />
+        <module name="Sentinel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cloud-Alibaba" target="1.8" />
       <module name="Cloud-Spring" target="1.8" />
       <module name="Cloud-Study" target="1.8" />
+      <module name="cloudstudy" target="1.8" />
+      <module name="Dubbo" target="1.8" />
+      <module name="Frames" target="1.8" />
       <module name="Nacos" target="1.8" />
+      <module name="Sentinel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

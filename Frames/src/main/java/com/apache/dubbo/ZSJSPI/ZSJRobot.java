@@ -1,9 +1,9 @@
-package com.apache.dubbo.jdkSPI;
+package com.apache.dubbo.ZSJSPI;
 
-import com.alibaba.dubbo.common.extension.SPI;
+import com.apache.dubbo.ZSJSPI.annotation.ZSJSPI;
 
-public interface Robot {
-
+@ZSJSPI("optimusPrime")
+public interface ZSJRobot {
 
     void sayHello();
 }

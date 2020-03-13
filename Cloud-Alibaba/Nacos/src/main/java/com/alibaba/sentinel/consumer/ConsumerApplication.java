@@ -1,4 +1,4 @@
-package com.alibaba.nacos.consumer;
+package com.alibaba.sentinel.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

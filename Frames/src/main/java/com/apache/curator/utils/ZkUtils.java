@@ -1,6 +1,6 @@
-package com.zookeeper.curator.utils;
+package com.apache.curator.utils;
 
-import com.zookeeper.curator.client.ZkServer;
+import com.apache.curator.client.ZkServer;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.api.transaction.CuratorOp;
 import org.apache.curator.framework.api.transaction.CuratorTransactionResult;
@@ -12,10 +12,6 @@ import org.apache.zookeeper.data.Stat;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent.Type.CHILD_ADDED;
-import static org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent.Type.CHILD_REMOVED;
-import static org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent.Type.CHILD_UPDATED;
 
 public class ZkUtils {
 

@@ -1,8 +1,8 @@
-package com.apache.dubbo.jdkSPI;
+package com.apache.dubbo.ZSJSPI;
 
-public class Bumblebee implements Robot {
+public class Bumblebee implements ZSJRobot {
     @Override
     public void sayHello() {
-        System.out.println("Hello, I am Bumblebee.");
+        System.out.println("Hello, I am  ZSJ  Bumblebee.");
     }
 }

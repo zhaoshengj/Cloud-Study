@@ -1,4 +1,4 @@
-package com.alibaba.nacos.consumer.config;
+package com.alibaba.sentinel.consumer.config;
 
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

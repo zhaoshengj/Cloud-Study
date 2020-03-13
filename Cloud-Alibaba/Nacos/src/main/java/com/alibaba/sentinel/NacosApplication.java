@@ -1,4 +1,4 @@
-package com.alibaba.nacos.provider;
+package com.alibaba.sentinel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
