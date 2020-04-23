@@ -1,0 +1,26 @@
+server:
+  port: 8000
+spring:
+#   config 用 mysql 作为配置中心
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/zsj
+#    username: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#    password: admin123
+#  profiles:
+#    active: jdbc
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+#        jdbc:
+#          sql: SELECT `KEY`, `VALUE` from PROPERTIES where APPLICATION=? and PROFILE=? and LABEL=?
+         git:
+           uri: https://github.com/zhaoshengj/Cloud-Study.git
+           skip-ssl-validation: true #禁用ssl验证
+           timeout: 5 #超时时间（秒）
+           search-paths: /CloudConfig
+           basedir: ./
+#           ignore-local-ssh-settings: true
+#           private-key:

@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Cloud-Alibaba/Nacos/pom.xml" />
         <option value="$PROJECT_DIR$/Cloud-Alibaba/pom.xml" />
         <option value="$PROJECT_DIR$/Cloud-Alibaba/Dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/Cloud-Spring/Config-Server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
