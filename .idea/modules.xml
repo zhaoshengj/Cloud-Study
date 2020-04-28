@@ -3,13 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Cloud-Alibaba/Cloud-Alibaba.iml" filepath="$PROJECT_DIR$/Cloud-Alibaba/Cloud-Alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud-Spring/Cloud-Consul/Cloud-Consul.iml" filepath="$PROJECT_DIR$/Cloud-Spring/Cloud-Consul/Cloud-Consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud-Spring/Cloud-Spring.iml" filepath="$PROJECT_DIR$/Cloud-Spring/Cloud-Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud-Spring/Config-Server/Config-Server.iml" filepath="$PROJECT_DIR$/Cloud-Spring/Config-Server/Config-Server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Cloud-Alibaba/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Cloud-Alibaba/Dubbo/Dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Frames/Frames.iml" filepath="$PROJECT_DIR$/Frames/Frames.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Cloud-Alibaba/Nacos/Nacos.iml" filepath="$PROJECT_DIR$/Cloud-Alibaba/Nacos/Nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cloud-Alibaba/Sentinel/Sentinel.iml" filepath="$PROJECT_DIR$/Cloud-Alibaba/Sentinel/Sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudstudy.iml" filepath="$PROJECT_DIR$/cloudstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud-Spring/Config-Server/config.iml" filepath="$PROJECT_DIR$/Cloud-Spring/Config-Server/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud-Alibaba/Nacos/nacos.iml" filepath="$PROJECT_DIR$/Cloud-Alibaba/Nacos/nacos.iml" />
     </modules>
   </component>
 </project>

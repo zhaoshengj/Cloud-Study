@@ -21,6 +21,6 @@ spring:
            skip-ssl-validation: true #禁用ssl验证
            timeout: 5 #超时时间（秒）
            search-paths: /CloudConfig
-           basedir: ./
+#          basedir: /config/config
 #           ignore-local-ssh-settings: true
 #           private-key:
